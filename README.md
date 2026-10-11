@@ -43,13 +43,15 @@
 > - If you want to take a class on git and even potentially get certified:
 >   https://education.github.com/experiences/foundations_certificate
 
-Author: <replace these pointy brackets with your full name>
+Author: Stephanie Lee-Ann Crewe
 
-My partner is <replace these pointy brackets with their full name>, [portfolio link](https://github.com/partner/iot-portfolio)
+My partners are: -Partner 1 : Michael Konadu Ampadu, [portfolio link](https://github.com/partner/iot-portfolio)
+                 -Partner 2 : Natnepael Fesseha, [portfolio link](
 
 In my team for the final project, I also had the following members:
-- <replace these pointy brackets with their full name>, [portfolio link](https://github.com/partner/iot-portfolio)
-- <replace these pointy brackets with their full name>, [portfolio link](https://github.com/partner/iot-portfolio)
+- Zinyu Ngangwa Barachie , [portfolio link](https://github.com/partner/iot-portfolio)
+- Elijah Nekambi Junior, [portfolio link](https://github.com/partner/iot-portfolio)
+- Mulumba Moses Katende, [portfolio link](
 
 Our team final project repository is [here](https://github.com/somewhere/final-iot-project)
 
