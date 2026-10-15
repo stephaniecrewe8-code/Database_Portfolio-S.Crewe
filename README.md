@@ -1,5 +1,5 @@
-# Personal Portfolio for the IoT/MCU class <at university/school>
-
+# Personal Portfolio for the Database class at HSBI
+Welcome
 > When you start editing this file, remove this description.
 >
 > Fork this repository (or use it as template).
