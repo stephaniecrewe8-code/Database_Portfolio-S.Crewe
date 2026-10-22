@@ -7,7 +7,7 @@ My partners are: -Partner 1 : Michael Konadu Ampadu, [portfolio link](https://gi
                  -Partner 2 : Natnepael Fesseha, [portfolio link](
 
 In my team for the final project, I also had the following members:
-- Zinyu Ngangwa Barachie , [portfolio link](https://github.com/partner/iot-portfolio)
+- Zinyu Ngangwa Barachie , [portfolio link]((https://github.com/bzinyu-tech/DataBases-Portfolio_Zin))
 - Elijah Nekambi Junior, [portfolio link](https://github.com/partner/iot-portfolio)
 - Mulumba Moses Katende, [portfolio link](
 
