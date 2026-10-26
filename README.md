@@ -4,7 +4,7 @@ Welcome
 Author: Stephanie Lee-Ann Crewe
 
 My partners are: -Partner 1 : Michael Konadu Ampadu, [portfolio link](https://github.com/MichaelKonsduAmpadu/michael-sql.portfolio)
-                 -Partner 2 : Natnepael Fesseha, [portfolio link](
+                 -Partner 2 : Natnepael Fesseha, [portfolio link](https://github.com/nfesseha/Database-Portflio-Fesseha)
 
 In my team for the final project, I also had the following members:
 - Zinyu Ngangwa Barachie , (https://github.com/bzinyu-tech/DataBases-Portfolio_Zin)
