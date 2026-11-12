@@ -1,11 +1,6 @@
+
 # Recommendation to Yasmin Kaya
 
-Use the Module 5 measurements from [my notes](normalization-notes.md) and [the benchmark scripts](benchmark.py). Replace every prompt with results from my own run.
+For the measured workload, keep the operational schema in **3NF** and do not use the indexed denormalized report table as the default dashboard path. The normalized query returned the same 350 grouped rows in a median **121.631 ms**; the report-table query with `ix_report_machine` took **197.303 ms**. Dropping the index and recompiling the plan brought the report-table median to **118.366 ms**, only slightly faster than the normalized query in this run. The site's update changed **1** normalized machine row and **4,000** report rows. The measured normalized table objects occupied **4,071,424 bytes**, compared with **11,091,968 bytes** for the report table object.
 
-I recommend **[3NF only / 3NF plus a reporting copy]** for the operational workload. The normalized report query measured [median] ms, compared with [median] ms for the report table, a [ratio]× difference on this dataset. The site update touched [row count] source row(s) and [row count] report row(s); measured table storage was [size] bytes and [size] bytes. These numbers support [explain the decision], but they describe the tested synthetic workload and local machine.
-
-If a denormalized reporting copy is used, keep it derived from the normalized source and update it transactionally. Add a rebuild and reconciliation path, and show the dashboard’s last successful refresh time. If the observed query improvement is not meaningful for the real workload, keep the simpler normalized query.
-
-## What would change my recommendation?
-
-[Describe the expected workload, freshness needs, and failure mode that would make you change the decision.]
+This 200,000-row synthetic workload did not show a meaningful case for keeping the denormalized table. If a real dashboard later has an expensive join and a measured read benefit, add a reporting copy only with transactional maintenance, a full rebuild/reconciliation path, and a visible last-refresh timestamp. The evidence is from one Windows-hosted run on 2026-11-12 (Python 3.14.9, SQLite 3.53.1); rerun it on the course laptop before making a hardware-specific claim.

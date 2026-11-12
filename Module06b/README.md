@@ -13,4 +13,4 @@ Read concepts.md for the ACID/BASE/CAP distinctions. Complete engine-notes.md wi
 Key lesson: flexible JSON is still a schema. CHECK(json_valid(meta)) enforces valid JSON, and an expression index only helps when the query uses the matching expression. ACID concerns transaction guarantees; BASE describes relaxed consistency in distributed systems. CAP is a distributed-systems trade-off, not a rule that every local database must explain itself against.
 
 
-Reusable scripts and reference notes in this folder were imported from [Michael’s Module 06b work](https://github.com/MichaelKonsduAmpadu/michael-sql.portfolio/tree/main/Module06b). Fill in the evidence documents only with observations from my runs and the instructor’s actual server demonstration.
+Run results are in [engine-notes.md](engine-notes.md) and [decision-record.md](decision-record.md). Reusable scripts and reference notes were imported from [Michael's Module 06b work](https://github.com/MichaelKonsduAmpadu/michael-sql.portfolio/tree/main/Module06b). The instructor's PostgreSQL server observations remain pending because no server demonstration or session result was available to record.

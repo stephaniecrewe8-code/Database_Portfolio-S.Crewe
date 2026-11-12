@@ -54,6 +54,10 @@ def main():
     print("equal output rows:",len(a))
     print("\n--- Report index experiment ---")
     con.execute("DROP INDEX IF EXISTS ix_report_machine")
+    con.commit()
+    con.close()
+    # Reopen so EXPLAIN QUERY PLAN cannot reuse a cached plan compiled with the index.
+    con=sqlite3.connect(DB)
     no_index_samples=[timed(con,DENORMALIZED)[0] for _ in range(5)]
     no_index=statistics.median(no_index_samples)
     print(f"report query without ix_report_machine median: {no_index:.3f} ms; samples={no_index_samples}")

@@ -19,4 +19,4 @@ The first script creates `history.db` (2 million rows) and a base CSV export. Th
 Generated database, CSV and Parquet files are local artefacts; do not commit them. Record actual measurements in `duckdb-notes.md`, complete `decision-memo.md` with your own values, and add your own learning reflection in `../Reflections/ref06a.md`. The ZSTD size comparison (S3) is part of the core homework; S1 and S2 are optional stretchers.
 
 
-Reusable scripts and the evidence-note template in this folder were imported from [Michael’s Module 06a work](https://github.com/MichaelKonsduAmpadu/michael-sql.portfolio/tree/main/Module06a). Measurements and terminal output must be produced on my own machine.
+Run evidence from 2026-11-12 is recorded in [duckdb-notes.md](duckdb-notes.md) and [decision-memo.md](decision-memo.md). These scripts and the note structure were imported from [Michael's Module 06a work](https://github.com/MichaelKonsduAmpadu/michael-sql.portfolio/tree/main/Module06a). The local timings were captured in a Windows-hosted environment; rerun them on the course laptop if your submission requires your own-machine measurements.
