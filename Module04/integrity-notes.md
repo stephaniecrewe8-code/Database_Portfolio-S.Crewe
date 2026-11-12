@@ -1,13 +1,16 @@
 ##Observations 
 
 When running the following in the terminal:
+```SQL
 CREATE TABLE t(sensor_id INTEGER, metric TEXT, value REAL);
 INSERT INTO t VALUES (1, 'temp_c', 9000);
 INSERT INTO t VALUES (1, 'temp_c', 'hot');
 INSERT INTO t VALUES (2, 'bogus', -500);
 SELECT * FROM t;
+```
 
 The output was given:
+```
 ╭───────────┬────────┬────────╮
 │ sensor_id │ metric │ value  │
 ╞═══════════╪════════╪════════╡
@@ -15,6 +18,7 @@ The output was given:
 │         1 │ temp_c │ hot    │
 │         2 │ bogus  │ -500.0 │
 ╰───────────┴────────┴────────╯
+```
 All three rows should be accepted. That’s the problem this module addresses: without rules, the database can store values that are impossible or nonsensical.
 
 
