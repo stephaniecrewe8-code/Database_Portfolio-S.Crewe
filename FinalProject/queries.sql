@@ -1,0 +1,4 @@
+-- FINAL PROJECT STARTER
+-- Add named queries derived from the stakeholder story.
+-- Every value originating outside SQL must be bound as a parameter by app.py.
+-- Include the headline query used in the live demo.

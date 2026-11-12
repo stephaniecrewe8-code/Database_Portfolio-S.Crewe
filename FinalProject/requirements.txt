@@ -1,0 +1,2 @@
+# Pinned starter dependency. Add only what the chosen project actually needs.
+datasette==0.65.5

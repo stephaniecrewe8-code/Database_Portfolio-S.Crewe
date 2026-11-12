@@ -1,0 +1,7 @@
+-- FINAL PROJECT STARTER — replace after the team chooses its real story.
+-- Required before submission:
+-- 1. At least one PRIMARY KEY and NOT NULL/UNIQUE constraints.
+-- 2. At least one FOREIGN KEY relationship.
+-- 3. At least one domain CHECK constraint.
+-- 4. At least one trigger or generated column that enforces a business rule.
+-- Enable foreign keys on every SQLite connection with PRAGMA foreign_keys=ON.

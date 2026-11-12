@@ -1,0 +1,22 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Local databases and analytical outputs
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
+*.parquet
+*.csv
+Module05/normalize.db
+Module06a/history.db
+Module06a/*.parquet
+Module06a/*.csv
+Module06b/*.db
+Module06b/sessions*
